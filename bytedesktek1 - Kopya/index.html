@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ByteDestek — Uzaktan IT Desteği</title>
+  <meta name="description" content="ByteDestek — Uzaktan IT desteği, ağ kurulumu, sunucu yönetimi, yedekleme ve siber güvenlik.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="container header" role="banner">
+    <div class="brand">
+      <img src="assets/logo.png" alt="ByteDestek logo">
+      <div>
+        <div style="font-weight:700">ByteDestek</div>
+        <div style="font-size:12px;color:var(--muted)">Profesyonel IT Desteği</div>
+      </div>
+    </div>
+    <nav class="navlinks" role="navigation" aria-label="Ana menü">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="hizmetler.html">Hizmetler</a>
+      <a href="hakkimizda.html">Hakkımızda</a>
+      <a href="iletisim.html" class="cta">İletişim</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- HERO / Slider -->
+    <section class="hero-wrap">
+      <div class="hero-slide" style="display:flex">
+        <div class="hero-left">
+          <h1>Uzaktan IT Desteği</h1>
+          <p>Küçük işletmeler ve esnaflar için hızlı, güvenilir ve profesyonel teknoloji çözümleri.</p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="https://wa.me/90XXXXXXXXXX?text=Merhaba%20ByteDestek,%20yard%C4%B1m%20istiyorum" target="_blank" rel="noopener">WhatsApp ile Hemen</a>
+            <a class="btn-outline" href="iletisim.html">Teklif Al</a>
+          </div>
+        </div>
+        <div class="hero-illus" aria-hidden="true">
+          <!-- abstract network SVG -->
+          <svg width="380" height="240" viewBox="0 0 380 240" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="l1" x1="0" x2="1"><stop offset="0%" stop-color="#1E90FF"/><stop offset="100%" stop-color="#00C896"/></linearGradient></defs>
+            <rect width="100%" height="100%" rx="12" fill="url(#l1)" opacity="0.06"/>
+            <g transform="translate(40,30)" fill="none" stroke="#fff" stroke-opacity="0.12" stroke-width="2">
+              <circle cx="80" cy="50" r="36"/>
+              <circle cx="200" cy="120" r="46"/>
+              <circle cx="120" cy="150" r="30"/>
+              <path d="M116 76 L196 116" stroke-linecap="round"/>
+              <path d="M84 90 L132 130" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="hero-slide" style="display:none">
+        <div class="hero-left">
+          <h1>Ağ Kurulumu & Yönetimi</h1>
+          <p>Ofis ağlarınızı planlıyor, güvenli ve hızlı bir şekilde çalışır hale getiriyoruz.</p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="hizmetler.html">Hizmet Detayı</a>
+            <a class="btn-outline" href="iletisim.html">İletişime Geç</a>
+          </div>
+        </div>
+        <div class="hero-illus" aria-hidden="true">
+          <svg width="380" height="240" viewBox="0 0 380 240" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" rx="12" fill="url(#l1)" opacity="0.06"/>
+            <g transform="translate(40,20)" fill="none" stroke="#fff" stroke-opacity="0.12" stroke-width="2">
+              <rect x="40" y="40" width="60" height="40" rx="6"/>
+              <rect x="180" y="80" width="80" height="48" rx="6"/>
+              <path d="M100 60 L180 100" />
+              <circle cx="60" cy="70" r="4" fill="#fff"/>
+              <circle cx="220" cy="100" r="4" fill="#fff"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="hero-slide" style="display:none">
+        <div class="hero-left">
+          <h1>Siber Güvenlik Çözümleri</h1>
+          <p>Temel zafiyet taramaları, antivirüs, güvenlik duvarı ve eğitimler ile koruyoruz.</p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="hakkimizda.html">Güvenlik Yaklaşımımız</a>
+            <a class="btn-outline" href="iletisim.html">Teklif İste</a>
+          </div>
+        </div>
+        <div class="hero-illus" aria-hidden="true">
+          <svg width="380" height="240" viewBox="0 0 380 240" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" rx="12" fill="url(#l1)" opacity="0.06"/>
+            <g transform="translate(40,30)" fill="none" stroke="#fff" stroke-opacity="0.12" stroke-width="2">
+              <path d="M20 140 L80 80 L160 120 L220 60" stroke-linecap="round"/>
+              <circle cx="220" cy="60" r="12"/>
+              <circle cx="80" cy="80" r="12"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="slider-dots" aria-hidden="true">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="hizmetler">
+      <h2>Hizmetlerimiz</h2>
+      <div class="services-grid">
+        <div class="card">
+          <div class="icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="12" rx="2" stroke="var(--primary)" stroke-width="1.8"/><path d="M8 20h8" stroke="var(--primary)" stroke-width="1.8"/></svg>
+          </div>
+          <div>
+            <h3>Uzaktan Masaüstü Desteği</h3>
+            <p>Anında bağlantı ile bilgisayar sorunlarını çözüyoruz; kurulum, optimizasyon, yazılım desteği.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 4v5c0 5-3.5 9.5-7 10-3.5-.5-7-5-7-10V7l7-4z" stroke="var(--primary)" stroke-width="1.6" fill="none"/></svg>
+          </div>
+          <div>
+            <h3>Siber Güvenlik</h3>
+            <p>Zafiyet taraması, politika önerileri ve temel güvenlik uygulamaları.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="var(--primary)" stroke-width="1.8"/><path d="M4 20c4-6 8-6 16-8" stroke="var(--primary)" stroke-width="1.6"/></svg>
+          </div>
+          <div>
+            <h3>Ağ Kurulumu</h3>
+            <p>Ofis ağ mimarisi, kablosuz optimizasyon ve kurulum hizmetleri.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section class="section">
+      <div class="why-grid">
+        <div class="why-item"><strong>Hızlı Müdahale</strong><div class="muted">Uzaktan müdahalelerle sorunları dakikalar içinde çözüyoruz.</div></div>
+        <div class="why-item"><strong>Güvenli Bağlantı</strong><div class="muted">Tüm bağlantılar şifreli ve onaylı yöntemlerle kurulur.</div></div>
+        <div class="why-item"><strong>Deneyim</strong><div class="muted">Farklı sektörlerde pratik tecrübeler.</div></div>
+        <div class="why-item"><strong>Şeffaf Fiyat</strong><div class="muted">Açık paketler: saatlik veya aylık bakım seçenekleri.</div></div>
+      </div>
+    </section>
+
+    <!-- split about + contact -->
+    <section class="section split">
+      <div class="about-card">
+        <h3>Hakkımızda</h3>
+        <p>ByteDestek, küçük işletmeler ve esnaflara pratik, güvenilir ve hızlı IT çözümleri sunar. Amacımız; zaman kaybını önlemek, verimliliği artırmak ve teknoloji kaynaklı riskleri azaltmaktır.</p>
+        <ul style="color:var(--muted);padding-left:18px">
+          <li>Uzaktan çözüm & yerinde müdahale kombinasyonu</li>
+          <li>Uzun süreli bakım anlaşmaları</li>
+          <li>Şeffaf faturalama ve ön bilgilendirme</li>
+        </ul>
+      </div>
+
+      <aside class="contact-card">
+        <h3>İletişim</h3>
+        <p class="muted">Hızlı destek için WhatsApp üzerinden yaz veya formu kullan.</p>
+        <div style="display:flex;flex-direction:column;gap:8px;margin-top:12px">
+          <a href="tel:+90XXXXXXXXXX">📞 +90 (5xx) 123 34 67</a>
+          <a href="https://wa.me/90XXXXXXXXXX?text=Merhaba%20ByteDestek" target="_blank" rel="noopener">💬 WhatsApp ile Hemen</a>
+          <a href="mailto:destek@bytedestek.com">✉ destek@bytedestek.com</a>
+        </div>
+        <hr style="margin:14px 0;border:none;border-top:1px solid #eef6ff">
+        <form action="contact-handler.php" method="post">
+          <label class="muted" style="font-size:13px">İsim</label>
+          <input name="name" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc;margin-top:6px" />
+          <label class="muted" style="font-size:13px;margin-top:8px;display:block">E-posta / Telefon</label>
+          <input name="contact" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc;margin-top:6px" />
+          <label class="muted" style="font-size:13px;margin-top:8px;display:block">Mesaj</label>
+          <textarea name="message" rows="4" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc;margin-top:6px"></textarea>
+          <div style="display:flex;gap:8px;margin-top:10px">
+            <button class="btn-primary" type="submit">Gönder</button>
+            <a class="btn-outline" href="https://wa.me/90XXXXXXXXXX?text=Merhaba%20ByteDestek">WhatsApp ile</a>
+          </div>
+        </form>
+      </aside>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> ByteDestek • İstanbul & Türkiye geneli destek
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
