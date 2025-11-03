@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>İletişim — ByteDestek</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="container header">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="ByteDestek logo">
+      <div><div style="font-weight:700">ByteDestek</div><div style="font-size:12px;color:var(--muted)">Profesyonel IT Desteği</div></div>
+    </div>
+    <nav class="navlinks">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="hizmetler.html">Hizmetler</a>
+      <a href="hakkimizda.html">Hakkımızda</a>
+      <a href="iletisim.html" class="cta">İletişim</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>İletişim</h2>
+      <div class="split">
+        <div class="about-card">
+          <p>Bizimle iletişime geçmek için aşağıdaki formu doldurun veya doğrudan WhatsApp üzerinden yazın.</p>
+          <form action="contact-handler.php" method="post">
+            <label class="muted" style="font-size:13px">İsim</label>
+            <input name="name" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc;margin-top:6px" />
+            <label class="muted" style="font-size:13px;margin-top:8px;display:block">E-posta / Telefon</label>
+            <input name="contact" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc;margin-top:6px" />
+            <label class="muted" style="font-size:13px;margin-top:8px;display:block">Mesaj</label>
+            <textarea name="message" rows="6" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc;margin-top:6px"></textarea>
+            <div style="display:flex;gap:8px;margin-top:10px">
+              <button class="btn-primary" type="submit">Gönder</button>
+              <a class="btn-outline" href="https://wa.me/90XXXXXXXXXX?text=Merhaba%20ByteDestek">WhatsApp ile</a>
+            </div>
+          </form>
+        </div>
+
+        <aside class="contact-card">
+          <h4>Telefon & Eposta</h4>
+          <p class="muted">İstanbul & Türkiye geneli destek</p>
+          <p style="margin-top:8px">📍 İstanbul, Türkiye<br>📞 <a href="tel:+90XXXXXXXXXX">+90 (5xx) 123 34 67</a><br>✉ <a href="mailto:destek@bytedestek.com">destek@bytedestek.com</a></p>
+          <hr style="margin:14px 0;border:none;border-top:1px solid #eef6ff">
+          <h4>Çalışma Saatleri</h4>
+          <p class="muted">Hafta içi 09:00 — 18:00 (Acil durumlar için WhatsApp 7/24)</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year4"></span> ByteDestek</div>
+  </footer>
+  <script>document.getElementById('year4').textContent = new Date().getFullYear();</script>
+</body>
+</html>
